@@ -1,0 +1,38 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "redstoneboxes:radius_selector",
+    "textures": {
+      "particle": "redstoneboxes:blocks/radius_selector_1000",
+      "all": "redstoneboxes:blocks/radius_selector_1000",
+      "sides": "blocks/stone",
+      "top": "redstoneboxes:blocks/radius_selector_1"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "setting": {
+      "0": {
+        "textures": {
+          "top": "redstoneboxes:blocks/radius_selector_1"
+        }
+      },
+      "1": {
+        "textures": {
+          "top": "redstoneboxes:blocks/radius_selector_10"
+        }
+      },
+      "2": {
+        "textures": {
+          "top": "redstoneboxes:blocks/radius_selector_100"
+        }
+      },
+      "3": {
+        "textures": {
+          "top": "redstoneboxes:blocks/radius_selector_1000"
+        }
+      }
+    }
+  }
+}

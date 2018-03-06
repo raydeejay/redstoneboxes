@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "normal": { "model": "stone_button", "uvlock": true, "texture": "redstoneboxes:blocks/chassis" },
+    "inventory": { "model": "stone_button", "uvlock": true, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=up,powered=false":    { "model": "stone_button", "uvlock": true, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=down,powered=false":  { "model": "stone_button", "uvlock": true, "x": 180, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=east,powered=false":  { "model": "stone_button", "uvlock": true, "x": 90, "y": 90, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=west,powered=false":  { "model": "stone_button", "uvlock": true, "x": 90, "y": 270, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=south,powered=false": { "model": "stone_button", "uvlock": true, "x": 90, "y": 180, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=north,powered=false": { "model": "stone_button", "uvlock": true, "x": 90, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=up,powered=true":     { "model": "stone_button_pressed", "uvlock": true, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=down,powered=true":   { "model": "stone_button_pressed", "uvlock": true, "x": 180, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=east,powered=true":   { "model": "stone_button_pressed", "uvlock": true, "x": 90, "y": 90, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=west,powered=true":   { "model": "stone_button_pressed", "uvlock": true, "x": 90, "y": 270, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=south,powered=true":  { "model": "stone_button_pressed", "uvlock": true, "x": 90, "y": 180, "texture": "redstoneboxes:blocks/chassis" },
+    "facing=north,powered=true":  { "model": "stone_button_pressed", "uvlock": true, "x": 90, "texture": "redstoneboxes:blocks/chassis" }
+  }
+}

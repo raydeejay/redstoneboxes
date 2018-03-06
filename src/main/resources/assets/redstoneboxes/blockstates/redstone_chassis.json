@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "redstoneboxes:redstone_chassis",
+    "textures": {
+      "tex": "redstoneboxes:blocks/redstone_chassis"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "formed": {
+      "false": {},
+      "true": {
+        "textures": {
+          "tex": "redstoneboxes:blocks/abstract_core_lit"
+        }
+      }
+    }
+  }
+}
+

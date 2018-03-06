@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "redstoneboxes:coordinates_selector",
+    "textures": {
+      "particle": "redstoneboxes:blocks/coordinates_selector",
+      "all": "redstoneboxes:blocks/coordinates_selector",
+      "sides": "blocks/stone",
+      "top": "redstoneboxes:blocks/coordinates_selector"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

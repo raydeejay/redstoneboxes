@@ -1,0 +1,38 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "redstoneboxes:rotation_selector",
+    "textures": {
+      "particle": "redstoneboxes:blocks/rotation_selector_n",
+      "all": "redstoneboxes:blocks/rotation_selector_n",
+      "sides": "blocks/stone",
+      "top": "redstoneboxes:blocks/rotation_selector_n"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+      "south": {
+        "textures": {
+          "top": "redstoneboxes:blocks/rotation_selector_s"
+        }
+      },
+      "west": {
+        "textures": {
+          "top": "redstoneboxes:blocks/rotation_selector_w"
+        }
+      },
+      "north": {
+        "textures": {
+          "top": "redstoneboxes:blocks/rotation_selector_n"
+        }
+      },
+      "east": {
+        "textures": {
+          "top": "redstoneboxes:blocks/rotation_selector_e"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "redstoneboxes",
+  "name": "Redstone Boxes",
+  "description": "Magical boxes imbued with abstract energy, made to travel around the mineverse",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["raydeejay"],
+  "credits": "raydeejay",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

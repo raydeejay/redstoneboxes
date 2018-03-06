@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "redstoneboxes:abstract_core",
+    "textures": {
+      "tex": "redstoneboxes:blocks/abstract_core"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "formed": {
+      "false": {},
+      "true": {
+        "textures": {
+          "tex": "redstoneboxes:blocks/abstract_core_lit"
+        }
+      }
+    }
+  }
+}
+

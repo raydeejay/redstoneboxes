@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "normal": { "model": "lever_off", "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "inventory": { "model": "lever_off",  "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=down_z,powered=false": { "model": "lever_off", "x": 180, "y": 180, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=down_x,powered=false": { "model": "lever_off", "x": 180, "y": 90, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=up_z,powered=false": { "model": "lever_off", "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=up_x,powered=false": { "model": "lever_off", "y": 270, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=east,powered=false": { "model": "lever_off", "x": 90, "y": 90, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=west,powered=false": { "model": "lever_off", "x": 90, "y": 270, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=south,powered=false" : { "model": "lever_off", "x": 90, "y": 180, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=north,powered=false" : { "model": "lever_off", "x": 90, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=down_z,powered=true" : { "model": "lever", "x": 180, "y": 180, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=down_x,powered=true" : { "model": "lever", "x": 180, "y": 90, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=up_z,powered=true": { "model": "lever", "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=up_x,powered=true": { "model": "lever", "y": 270, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=east,powered=true": { "model": "lever", "x": 90, "y": 90, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=west,powered=true": { "model": "lever", "x": 90, "y": 270, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=south,powered=true": { "model": "lever", "x": 90, "y": 180, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } },
+    "facing=north,powered=true": { "model": "lever", "x": 90, "textures": { "particle": "blocks/anvil_base", "base": "blocks/anvil_base", "lever": "blocks/beacon" } }
+  }
+}
+
+

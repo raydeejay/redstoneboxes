@@ -1,0 +1,32 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "redstoneboxes:btc_cube",
+    "textures": {
+      "tex": "blocks/wool_colored_red"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "appearance": {
+      "0": { "textures": { "tex": "blocks/wool_colored_red"} },
+      "1": { "textures": { "tex": "blocks/log_oak"} },
+      "2": { "textures": { "tex": "blocks/quartz_block_lines"} },
+      "3": { "textures": { "tex": "blocks/planks_oak"} },
+      "4": { "textures": { "tex": "blocks/stone"} },
+      "5": { "textures": { "tex": "blocks/pumpking"} },
+      "6": { "textures": { "tex": "blocks/cactus"} },
+      "7": { "textures": { "tex": "blocks/nether_brick"} },
+      "8": { "textures": { "tex": "blocks/obsidian"} },
+      "9": { "textures": { "tex": "blocks/melon"} },
+      "10": { "textures": { "tex": "blocks/haybale"} },
+      "11": { "textures": { "tex": "blocks/packed_ice"} },
+      "12": { "textures": { "tex": "blocks/bookshelf"} },
+      "13": { "textures": { "tex": "blocks/redstone_lamp_on"} },
+      "14": { "textures": { "tex": "blocks/door_iron_upper"} },
+      "15": { "textures": { "tex": "blocks/door_iron_lower"} }
+    }
+  }
+}
+
