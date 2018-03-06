@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "redstoneboxes:items/sonic_redstone_driver"
+    "layer0": "redstoneboxes:items/redstone_indicator"
   },
   "display": {
     "thirdperson": {
