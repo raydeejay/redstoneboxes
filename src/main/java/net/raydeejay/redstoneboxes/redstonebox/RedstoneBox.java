@@ -1,6 +1,6 @@
 package net.raydeejay.redstoneboxes.redstonebox;
 
-import net.minecraft.block.BlockAir;
+import net.minecraft.block.*;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
@@ -186,7 +186,7 @@ public class RedstoneBox {
     public static boolean canMaterializeAt(World world, BlockPos pos, int rotationIndex) {
         int airBlocks = 0;
 
-        // TODO - fix, checking 5x5 around the core to ensure free space right now
+        // TODO - fix, checking 5x4x5 around the core to ensure free space right now
         int x0 = -2;
         int x1 = 2;
         int y0 = -1;
@@ -197,7 +197,12 @@ public class RedstoneBox {
         for (int x = x0; x <= x1; x++) {
             for (int y = y0; y <= y1; y++) {
                 for (int z = z0; z <= z1; z++) {
-                    if (world.getBlockState(pos.add(x, y, z)).getBlock() instanceof BlockAir) {
+                    Block block = world.getBlockState(pos.add(x, y, z)).getBlock();
+                    if (block instanceof BlockAir
+                        || block instanceof BlockLeaves
+                        || block instanceof BlockTallGrass
+                        || block instanceof BlockFlower
+                        || block instanceof BlockTorch) {
                         ++airBlocks;
                     }
                 }
